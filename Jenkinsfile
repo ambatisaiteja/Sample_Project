@@ -1,6 +1,4 @@
-pipeline {
-    agent any
-    stages {	
+
         stage ('Build Stage') {
             steps {
 			dir("/var/lib/jenkins/workspace/deploy/"){
